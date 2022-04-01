@@ -13,7 +13,7 @@ To run the test:
 make run
 ```
 
-If everything goes well, you should get the following outpout:
+If everything goes well, you should get the following output:
 ```
 VMexit: PMIO port=0x123 value=42
 VMexit: KVM_EXIT_HLT
