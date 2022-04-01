@@ -3,9 +3,9 @@
 Tiny KVM code that triggers two VMexits:
 
 - PMIO write
-- hlt instruction
+- `hlt` instruction
 
-The goal of this code is to illustrate an issue that encountered on an Archlinux system when compiled with `-O3`.
+The goal of this code is to illustrate an issue encountered on some Archlinux systems when compiled with `-O3`.
 In this scenario, no PMIO VMexit was triggered.
 
 To run the test:
